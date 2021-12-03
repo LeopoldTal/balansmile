@@ -1,0 +1,11 @@
+{
+	"name": "balansmile",
+	"version": "0.1.0",
+	"description": "Test whether a string containing smileys has balanced parentheses",
+	"main": "index.ts",
+	"author": "Leopold Tal G <leopold.tal.dg@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"@types/node": "^16.11.11"
+	}
+}
