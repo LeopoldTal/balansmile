@@ -78,7 +78,7 @@ When we reach the end of the string, if 0 is inside the set, then there's a poss
 
 Our set of nesting depths is really a **range** of consecutive nonnegative integers, and we need only keep track of its endpoints. We can prove this recursively by considering each of the operations on this set.
 
-Initially, the set is of possible nesting depths is `{0}`. Each of the possible operations preserves contiguousness:
+Initially, the set is of possible nesting depths is `{0}`. Each of the possible operations preserves contiguity:
 
 | Token | Previous range |   New range   |
 |-------|---------------:|--------------:|
