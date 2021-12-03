@@ -5,7 +5,17 @@
 	"main": "index.ts",
 	"author": "Leopold Tal G <leopold.tal.dg@gmail.com>",
 	"license": "MIT",
+	"scripts": {
+		"start": "ts-node index.ts",
+		"test": "jest"
+	},
 	"dependencies": {
-		"@types/node": "^16.11.11"
+		"@types/node": "^16.11.11",
+		"typescript": "^4.5.2"
+	},
+	"devDependencies": {
+		"@types/jest": "^27.0.3",
+		"jest": "^27.4.3",
+		"ts-jest": "^27.0.7"
 	}
 }
